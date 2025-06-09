@@ -32,11 +32,13 @@ export const Testimonials = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newTestimonial = await postTestimonial(formData);
-    setTestimonials([...testimonials, newTestimonial]);
+    const updatedTestimonials = [...testimonials, newTestimonial];
+    setTestimonials(updatedTestimonials);
     setFormData({ name: '', role: '', message: '', avatarUrl: '' });
     setShowForm(false);
-    setIndex(testimonials.length);
+    setIndex(updatedTestimonials.length - 1); // fix: updated length
   };
+
 
   return (
     <section
@@ -45,7 +47,7 @@ export const Testimonials = () => {
     >
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-[black]">TESTIMONIALS</h2>
-        <div className="w-64 h-1 bg-gray-500 mx-auto mt-4"></div>
+        <div className="w-32 h-1 bg-gray-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
           Hear from those who’ve worked with me or used my platform!
         </p>
