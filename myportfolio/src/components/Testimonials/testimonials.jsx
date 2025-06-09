@@ -23,8 +23,18 @@ export const Testimonials = () => {
     fetchData();
   }, []);
 
-  const next = () => setIndex((prev) => (prev + 1) % testimonials.length);
-  const prev = () => setIndex((prev - 1 + testimonials.length) % testimonials.length);
+  const next = () => {
+    if (testimonials.length > 0) {
+      setIndex((prev) => (prev + 1) % testimonials.length);
+    }
+  };
+
+  const prev = () => {
+    if (testimonials.length > 0) {
+      setIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
+    }
+  };
+
 
   const handleChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
