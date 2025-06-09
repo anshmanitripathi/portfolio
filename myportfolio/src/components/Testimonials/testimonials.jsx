@@ -47,9 +47,9 @@ export const Testimonials = () => {
     >
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-[black]">TESTIMONIALS</h2>
-        <div className="w-32 h-1 bg-gray-500 mx-auto mt-4"></div>
+        <div className="w-64 h-1 bg-gray-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          Hear from those who’ve worked with me or used my platform!
+          Hear from those who have worked with me or used my platform!
         </p>
       </div>
 
@@ -101,10 +101,10 @@ export const Testimonials = () => {
           />
           <button
             type="submit"
-            className="w-full bg-gradient-to-r py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
+            className="w-full py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
             style={{
               background: 'linear-gradient(90deg, gray, black)',
-              boxShadow: '0 0 2px gray, 0 0 2px gray, 0 0 40px gray',
+              // boxShadow: '0 0 2px gray, 0 0 2px gray, 0 0 40px gray',
             }}
           >
             Submit
