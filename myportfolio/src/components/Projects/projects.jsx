@@ -22,8 +22,8 @@ export const Work = () => {
         <h2 className="text-4xl font-bold text-[black]">PROJECTS</h2>
         <div className="w-48 h-1 bg-[gray] mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          A showcase of the projects I have worked on, highlighting my skills
-          and experience in various technologies
+          A showcase of the projects that I have worked on, highlighting my skills
+          and experience in various technologies.
         </p>
       </div>
 

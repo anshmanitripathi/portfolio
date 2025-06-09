@@ -110,43 +110,6 @@ export const SkillsInfo = [
 
 // export const experiences = [
 //   {
-//     id: 0,
-//     img: webverseLogo,
-//     role: "Fullstack Developer",
-//     company: "Webverse Digital",
-//     date: "April 2024 - Present",
-//     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-//     skills: [
-//       "HTML",
-//       "CSS",
-//       "JavaScript",
-//       "React JS",
-//       "TypeScript",
-//       "Node JS",
-//       "Tailwind CSS",
-//       "MongoDb",
-//       "Redux",
-//       " Next Js",
-//     ],
-//   },
-//   {
-//     id: 1,
-//     img: agcLogo,
-//     role: "Fullstack Engineer",
-//     company: "Agumentik Group of Companies",
-//     date: "July 2023 - March 2024",
-//     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-//     skills: [
-//       "ReactJS",
-//       "Redux",
-//       "JavaScript",
-//       "Tailwind CSS",
-//       "HTML",
-//       "CSS",
-//       "SQL",
-//     ],
-//   },
-//   {
 //     id: 2,
 //     img: newtonschoolLogo,
 //     role: "Frontend Intern",
@@ -171,7 +134,6 @@ export const education = [
     school: "GNIOT, Greater Noida",
     date: "Sept 2022 - Aug 2026",
     grade: "8.4 CGPA",
-    // desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
     degree: "Bachelor of Technology - B.Tech (Computer Science)",
   },
   {
@@ -180,7 +142,6 @@ export const education = [
     school: "Air Force School Gorakhpur",
     date: "Apr 2020 - March 2022",
     grade: "80%",
-    // desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
     degree: "CBSE(XII) - PCM with Typography",
   },
   {
@@ -189,7 +150,6 @@ export const education = [
     school: "Amar Public School, SKN",
     date: "Apr 2018 - March 2020",
     grade: "87%",
-    // desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
     degree: "CBSE(X), Science with Computer Application",
   },
 ];
@@ -202,8 +162,8 @@ export const projects = [
       "A responsive MERN stack portfolio showcasing my projects, skills, and testimonials.Built with Tailwind CSS, Framer Motion, and real- time MongoDB Atlas integration.Includes smooth animations, carousel, and a clean, mobile - friendly design.",
       image: portfolio,
   tags: ["HTML", "Tailwind CSS", "JavaScript", "React JS", "MongoDB", "Express.js", "Node.js"],
-  github: "#",
-  webapp: "#",
+  github: "https://github.com/anshmanitripathi/portfolio",
+  webapp: "https://portfolio-frontend-jwq5.onrender.com/",
     },
 {
   id: 1,
@@ -213,7 +173,7 @@ export const projects = [
     image: homygo,
       tags: ["Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
         github: "https://github.com/anshmanitripathi/Homygo",
-          webapp: "https://csprep.netlify.app/",
+          webapp: "https://github.com/anshmanitripathi/Homygo",
     },
 {
   id: 2,
