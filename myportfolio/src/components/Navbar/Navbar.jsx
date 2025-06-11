@@ -62,7 +62,7 @@ export const Navbar = () => {
 
 
   return (
-    <nav className={`fixed top-0 w-full z-50 transition-duration-300 px-[7vw]  md:px-[7vw] lg:px-[7vw] ${isScrolled ? "bg-[white] bg-opacity-50 backdrop-blur-md shadow-md border-b-[2px] border-[gray]" : 'bg-[white] border-b-[2px] border-[gray]'}`} >
+    <nav className={`fixed top-0 w-full z-50 transition-duration-300 px-[7vw]  md:px-[7vw] lg:px-[7vw] ${isScrolled ? "bg-[white] border-b-[2px] border-[gray]" : 'bg-[white] border-b-[2px] border-[gray]'}`} >
       <div className=' py-5 flex justify-between items-center'>
         {/* logo */}
         <div className='text-lg font-bold cursor-pointer'>
